@@ -1,5 +1,6 @@
 #  Java Application Deploy by Pipeline
-
+![Image](https://github.com/user-attachments/assets/ae1ff2f0-3b9b-4a2e-aa0d-5e9f6d1aab82)
+![Image](https://github.com/user-attachments/assets/f81bc457-ac90-4f3e-b2f1-e44487fba66a)
 	Login as Root User
 	sudo su -
 	apt-get update && apt-get upgrade
@@ -11,6 +12,7 @@
 	https://github.com/praveen1994dec/Java_app_3.0.git
 	
 ### Prerequisites Tools  And these are the command which are run on Main instance
+![Image](https://github.com/user-attachments/assets/f4aac53d-227b-4820-9ff8-858ef03090b3)
 		Lunch 2 Instances of t2.medium size
 		Connect them and update those server 
 		sudo apt-get update
@@ -20,6 +22,7 @@
 		Clone the Repository
 		git clone https://github.com/praveen1994dec/Java_app_3.0.git
 
+![Image](https://github.com/user-attachments/assets/2d307915-1acb-48ce-8806-ba729eec9542)
 # Install Java Version 17
 	cd /home/ubuntu/
 	java --version
@@ -62,14 +65,17 @@
 		sudo apt-get update
 		sudo apt-get install trivy
 
-
-----> Download Sonarcube in Docker Container
-		>  docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+# Download Sonarcube in Docker Container
+	docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+ ![Image](https://github.com/user-attachments/assets/5eb28222-6548-4a18-860d-b89ee1568a9f)
    
 #### Login Jenkins  && Login Sonarcube respectively
-		and Generate Token for jenkins from Sonarcube
+![Image](https://github.com/user-attachments/assets/3b9d211b-4fd9-4cb3-8aec-0a3bd30bc51a)
+	And Generate Token for jenkins from Sonarcube
+![Image](https://github.com/user-attachments/assets/0bade460-c182-497e-824d-840587f38bbb)
 
 ### Plugins Install On Jenkins From Root User For This Project
+
 	1.	Artifactory
     2.  Maven Integration
     3.  Pipeline Maven Integration 
@@ -107,11 +113,3 @@
     sudo apt install docker-ce -y
     #sudo systemctl status docker
     sudo chmod 777 /var/run/docker.sock
-
-   
-
-
-
-
-
-
